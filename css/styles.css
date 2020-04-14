@@ -1,0 +1,325 @@
+body {
+  font-family: "American Typewriter";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "American Typewriter";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "American Typewriter";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.head {
+  background-image: url(/images/Background.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: left 60% bottom 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "American Typewriter";
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 223, 185);
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-family: "American Typewriter";
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: rgb(255, 223, 185);
+  text-decoration: underline;
+}
+
+.fas .fa-bars {
+  color: black;
+  font-size: 90px;
+}
+
+/* Title Section */
+
+#title {
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: rgb(255, 226, 193);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: rgb(255, 217, 174);
+}
+
+/* Slide Section */
+
+.slide-box {
+  /* position: relative;
+  right: -3000px; */
+  transition: transform 0.3s;
+  transform: translateX(3000px);
+}
+/* Testimonial Section */
+
+#testimonials {
+  background-color: rgb(255, 223, 185);
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: rgb(255, 223, 185);
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.form {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.btn-price:hover {
+  background: rgb(255, 235, 212);
+  color: white;
+  border-color: #fff;
+}
+
+.card {
+  transition: opacity 0.7s;
+  opacity: 0;
+}
+
+.card.fade {
+  opacity: 1;
+}
+/* Modals */
+
+.modalP {
+  margin-top: 5%;
+  color: black;
+}
+
+.modalI {
+  width: 100%;
+}
+
+.buy {
+  background: rgb(255, 235, 212);
+  color: grey;
+}
+
+.buy:hover {
+  background: rgb(255, 235, 212);
+  color: white;
+}
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* Info page */
+
+.titre-l {
+  text-decoration: underline;
+  margin-bottom: 10%;
+}
+
+.titre-c {
+  text-decoration: underline;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.form-send {
+  background-color: rgb(255, 235, 212);
+  border-color: rgb(255, 235, 212);
+  color: #fff;
+}
+
+.card-box {
+  margin-top: 10%;
+  border: white;
+  transition: transform 0.2s;
+}
+
+#pair {
+  margin-left: 15%;
+}
+
+.card-img {
+  height: 200px;
+  width: auto;
+  overflow: hidden;
+  opacity: 0.4;
+}
+
+.card-text {
+  color: black;
+  width: 100%;
+}
+
+.card-title {
+  color: black;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.card-box:hover {
+  transform: scale(1.1);
+}
+
+/* Sign-in */
+
+.retour {
+  margin-top: 10%;
+  font-weight: bold;
+  margin-left: 10px;
+  color: black;
+}
+#arrow {
+  color: black;
+}
+
+.sign {
+  margin-top: 5% auto;
+}
+
+.sign:hover {
+  text-decoration: underline;
+  color: #ffe2c3;
+}
+
+#head {
+  margin: 5% auto;
+  color: RGB(255, 226, 195);
+}
+#formulaire {
+  align-items: center;
+}
+.button {
+  background-color: #ffe2c3;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.button:hover {
+  background-color: rgb(255, 217, 174);
+}
+
+/* Media */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

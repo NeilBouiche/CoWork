@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CoWork</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Form -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="retour col-4 col-sm-4">
+          <a href="index.html"
+            ><i id="arrow" class="fas fa-arrow-left fa-2x"></i
+          ></a>
+        </div>
+      </div>
+      <a href="sign-in.html"
+        ><p class="sign col-12">Already have an account ? Sign-in !</p></a
+      >
+      <div class="row">
+        <h1 id="head">Sign-up</h1>
+      </div>
+      <div class="row">
+        <form class="justify-content-center offset-3 col-6">
+          <div class="form-group">
+            <label class="sr-only">Name</label>
+            <input
+              type="text"
+              name="nom"
+              class="form-control"
+              placeholder="Name"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label class="sr-only">Surname</label>
+            <input
+              type="text"
+              name="prenom"
+              class="form-control"
+              placeholder="Surname"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label class="sr-only">Pseudo</label>
+            <input
+              type="text"
+              name="pseudo"
+              class="form-control"
+              placeholder="Pseudo"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label class="sr-only">Password</label>
+            <input
+              type="password"
+              name="mdp"
+              class="form-control"
+              placeholder="Password"
+            />
+          </div>
+          <br />
+          <div class="form-group">
+            <label class="sr-only">Confirm password</label>
+            <input
+              type="password"
+              name="cmdp"
+              class="form-control"
+              placeholder="Confirm password"
+            />
+          </div>
+          <br />
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="inputGroupFileAddon01"
+                >Upload</span
+              >
+            </div>
+            <div class="custom-file">
+              <input
+                type="file"
+                class="custom-file-input"
+                name="gravatar"
+                id="inputGroupFile01"
+                aria-describedby="inputGroupFileAddon01"
+              />
+              <label class="custom-file-label" for="inputGroupFile01"
+                ></label
+              >
+            </div>
+          </div>
+          <br /><br /><br />
+          <button type="submit" name="signup-submit" class="btn button">
+            S'inscrire
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p class="copyright">Copyright 2020 CoWork</p>
+      </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

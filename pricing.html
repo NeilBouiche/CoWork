@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Princing</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid head">
+        <!-- Nav Bar -->
+
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">CoWork</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="information.html">Informations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sign-up.html">Sign in | Register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">Join the best Coworking Space in town !</h1>
+            <button type="button" class="btn btn-outline-light">
+              Discover
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">A Plan for Every Need</h2>
+      <p>Simple and affordable price to develop your projects</p>
+      <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Basic</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>5 hours a week</p>
+              <p>Buffet not included</p>
+              <button
+                type="button"
+                class="btn btn-lg btn-block btn-outline-dark btn-price"
+                data-toggle="modal"
+                data-target="#Basic"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="Basic"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLongTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Basic
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="/images/Space1.jpg"
+                  alt="Coworking space"
+                  class="modalI"
+                />
+                <p class="modalP">5 hours a week</p>
+                <p class="modalP">Buffet not included</p>
+                <p class="modalP">Resctricted access to social areas</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn buy">
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card -->
+
+        <div class="pricing-column col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Salary man</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$49 / mo</h2>
+              <p>Unlimited hours</p>
+              <p>Unlimited Buffet</p>
+              <p>Access to all areas</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark btn-price"
+                type="button"
+                data-toggle="modal"
+                data-target="#Salary"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+
+        <div
+          class="modal fade"
+          id="Salary"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLongTitle"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">
+                  Salary Man
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img
+                  src="/images/Space2.jpg"
+                  alt="Coworking space"
+                  class="modalI"
+                />
+                <p class="modalP">Unlimited hours</p>
+                <p class="modalP">Unlimited Buffet</p>
+                <p class="modalP">Access to all areas</p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" class="btn buy">
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card -->
+
+        <div class="pricing-column col-lg-4">
+          <div class="card">
+            <div class="card-header">
+              <h3>Collaborator</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$69 / mo</h2>
+              <p>Unlimited hours</p>
+              <p>Unlimited Buffet</p>
+              <p>Access to all areas</p>
+              <p>Priority access to meeting rooms</p>
+              <button
+                class="btn btn-lg btn-block btn-outline-dark btn-price"
+                type="button"
+                data-toggle="modal"
+                data-target="#Collaborator"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+
+      <div
+        class="modal fade"
+        id="Collaborator"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">
+                Salary Man
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="/images/Space3.jpg"
+                alt="Coworking space"
+                class="modalI"
+              />
+              <p class="modalP">Unlimited hours</p>
+              <p class="modalP">Unlimited Buffet</p>
+              <p class="modalP">Access to all areas</p>
+              <p class="modalP">Priority access to meeting rooms</p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn buy">
+                Buy
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="white-section" id="footer">
+      <div class="container-fluid">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p class="copyright">Copyright 2020 CoWork</p>
+      </div>
+    </footer>
+    <script src="/JS/index.js"></script>
+  </body>
+</html>
